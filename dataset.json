@@ -1,7 +1,7 @@
 [
   {
     "ID": "AVOID_FLOATING_POINT_DATA_TYPES",
-    "Name": "[Performance] Do not use floating point data types",
+    "Name": "[Performance] Do not use floating point data types, use Fixed decimal",
     "Category": "Performance",
     "Description": "The \"Double\" floating point data type should be avoided, as it can result in unpredictable roundoff errors and decreased performance in certain scenarios. Use \"Int64\" or \"Decimal\" where appropriate (but note that \"Decimal\" is limited to 4 digits after the decimal sign).",
     "Severity": 2,
